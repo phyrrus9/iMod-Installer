@@ -1,0 +1,6 @@
+#!/bin/sh
+echo "moving files"
+mv /Applications/imod.app/imod /Applications/imod.app/imod_
+mv /Applications/imod.app/bootstrap /Applications/imod.app/imod
+echo "setting permissions"
+chmod +s /Applications/imod.app/imod_
