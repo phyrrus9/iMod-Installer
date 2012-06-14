@@ -72,7 +72,7 @@ device d = IPT3G;
     if (safetyswitch.on)
     {
         //[NSThread detachNewThreadSelector:@selector(lol) toTarget:self withObject:nil];
-        //system("dpkg -i /Applications/imod.app/imod.deb");
+        system("dpkg -i /Applications/imod.app/imod.deb");
         sleep(3);
         status.text = @"Finished!";
         spinner.stopAnimating;
@@ -86,11 +86,6 @@ device d = IPT3G;
 - (IBAction)statuschange:(id)sender {
     if (safetyswitch.on)
     {
-        UILocalNotification *nc = [[UILocalNotification alloc] init];
-        [nc setFireDate:[NSDate date]];
-        [nc setAlertBody:@"Hello"];
-        [[UIApplication sharedApplication] scheduleLocalNotification:nc];
-        [nc release];
         status.text = @"Installing...";
         spinner.startAnimating;
     }

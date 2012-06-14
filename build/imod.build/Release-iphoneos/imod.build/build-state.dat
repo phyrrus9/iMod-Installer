@@ -1,0 +1,314 @@
+Timod
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/Info.plist imod/imod-Info.plist
+cProcessPCH /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-gfwmidszcnewuvcvfsnelbxhrpqc/imod-Prefix.pch.pth imod/imod-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-acovvaxcqiwyeufezstfekktsrbv/imod-Prefix.pch.pth imod/imod-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/AppDelegate.o /Users/phyrrus9/iMod-Installer/imod/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/main.o /Users/phyrrus9/iMod-Installer/imod/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/ViewController.o /Users/phyrrus9/iMod-Installer/imod/ViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/imod normal armv7
+cGenerateDSYMFile /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app.dSYM /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/imod
+cCopyStringsFile /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/en.lproj/InfoPlist.strings imod/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/phyrrus9/iMod-Installer/imod/en.lproj/MainStoryboard.storyboard
+cPhaseScriptExecution "Run Script" /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Script-50524F424C454D533F.sh
+cTouch /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app
+cValidate /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004FB865810000000000000132
+t1337484673
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F78D8A600000000003AE430
+t1333319846
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F78D8A7000000000052C940
+t1333319847
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F78D8A80000000000798EA0
+t1333319848
+s7966368
+
+N/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app
+t2
+s0
+
+N/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app.dSYM
+t2
+s0
+
+N/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/Info.plist
+t2
+s0
+
+N/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/PkgInfo
+t2
+s0
+
+N/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/en.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/imod
+t2
+s0
+
+N/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/imod.LinkFileList
+c000000004FDA1BE50000000000000149
+t1339694053
+s329
+
+N/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Script-50524F424C454D533F.sh
+c000000004FDA1BE5000000000000019D
+t1339694053
+s413
+
+N/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/phyrrus9/iMod-Installer/imod/AppDelegate.m
+c000000004FDA08A00000000000000917
+t1339689120
+s2327
+
+N/Users/phyrrus9/iMod-Installer/imod/ViewController.mm
+c000000004FDA1BE400000000000008F9
+t1339694052
+s2297
+
+N/Users/phyrrus9/iMod-Installer/imod/en.lproj/InfoPlist.strings
+c000000004FD9F3EE000000000000002D
+t1339683822
+s45
+
+N/Users/phyrrus9/iMod-Installer/imod/en.lproj/MainStoryboard.storyboard
+c000000004FDA19EA00000000000033F1
+t1339693546
+s13297
+
+N/Users/phyrrus9/iMod-Installer/imod/imod-Prefix.pch
+c000000004FD9F3EE0000000000000137
+t1339683822
+s311
+
+N/Users/phyrrus9/iMod-Installer/imod/main.m
+c000000004FD9F7D30000000000000177
+t1339684819
+s375
+
+N/var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-acovvaxcqiwyeufezstfekktsrbv/imod-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-gfwmidszcnewuvcvfsnelbxhrpqc/imod-Prefix.pch.pth
+t2
+s0
+
+Nimod/imod-Info.plist
+c000000004FDA00B30000000000000463
+t1339687091
+s1123
+
+CBuild AST from /Users/phyrrus9/iMod-Installer/imod/AppDelegate.m
+r0
+
+CBuild AST from /Users/phyrrus9/iMod-Installer/imod/ViewController.mm
+r0
+
+CBuild AST from /Users/phyrrus9/iMod-Installer/imod/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd74cbe65538ab541^c3f5f865538ab541^---0#1#0#--18"Check dependencies36"F376AE61-3410-4FEE-8099-4DF4C7E23538-
+
+CCompileC build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/AppDelegate.o /Users/phyrrus9/iMod-Installer/imod/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s361386857.335404
+e361386858.114594
+r1
+xCompileC
+xbuild/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/AppDelegate.o
+x/Users/phyrrus9/iMod-Installer/imod/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/phyrrus9/iMod-Installer/imod/AppDelegate.m992c5669538ab541^f06a1d6a538ab541^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/phyrrus9/iMod-Installer/imod/AppDelegate.m0000000000000000^2894"CompileC build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/AppDelegate.o imod/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/phyrrus9/iMod-Installer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-generated-files.hmap -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-own-target-headers.hmap -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-all-target-headers.hmap -iquote /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-project-headers.hmap -I/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/include -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/DerivedSources/armv7 -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/DerivedSources -F/Users/phyrrus9/iMod-Installer/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-gfwmidszcnewuvcvfsnelbxhrpqc/imod-Prefix.pch -MMD -MT dependencies -MF /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/AppDelegate.dia -c /Users/phyrrus9/iMod-Installer/imod/AppDelegate.m -o /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/AppDelegate.o36"CD83C482-5857-43A7-9673-CEA2BE15E983-
+
+CCompileC build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/ViewController.o /Users/phyrrus9/iMod-Installer/imod/ViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361386858.086127
+e361386858.662681
+r1
+xCompileC
+xbuild/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/ViewController.o
+x/Users/phyrrus9/iMod-Installer/imod/ViewController.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/phyrrus9/iMod-Installer/imod/ViewController.mm:48:5: warning: instance method '-setProgress:' not found (return type defaults to 'id')
+o    [self setProgress:nil];
+o    ^~~~~~~~~~~~~~~~~~~~~~
+o/Users/phyrrus9/iMod-Installer/imod/ViewController.mm:78:9: warning: property access result unused - getters should not be used for side effects [-Wunused-value]
+o        spinner.stopAnimating;
+o        ^~~~~~~~~~~~~~~~~~~~~
+o/Users/phyrrus9/iMod-Installer/imod/ViewController.mm:90:9: warning: property access result unused - getters should not be used for side effects [-Wunused-value]
+o        spinner.startAnimating;
+o        ^~~~~~~~~~~~~~~~~~~~~~
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/phyrrus9/iMod-Installer/imod/ViewController.mmc635166a538ab541^83c1a96a538ab541^-667"/Users/phyrrus9/iMod-Installer/imod/ViewController.mm:48:5: warning: instance method '-setProgress:' not found (return type defaults to 'id')    [self setProgress:nil];    ^~~~~~~~~~~~~~~~~~~~~~/Users/phyrrus9/iMod-Installer/imod/ViewController.mm:78:9: warning: property access result unused - getters should not be used for side effects [-Wunused-value]        spinner.stopAnimating;        ^~~~~~~~~~~~~~~~~~~~~/Users/phyrrus9/iMod-Installer/imod/ViewController.mm:90:9: warning: property access result unused - getters should not be used for side effects [-Wunused-value]        spinner.startAnimating;        ^~~~~~~~~~~~~~~~~~~~~~3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@72"Instance method '-setProgress:' not found (return type defaults to 'id')-361386858#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@69"file://localhost/Users/phyrrus9/iMod-Installer/imod/ViewController.mm0000000000000000^47#4#47#4#853#0#14"Semantic Issue1(3@69"file://localhost/Users/phyrrus9/iMod-Installer/imod/ViewController.mm0000000000000000^47#4#47#26#853#21#-2@75"Property access result unused - getters should not be used for side effects-361386858#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Users/phyrrus9/iMod-Installer/imod/ViewController.mm0000000000000000^77#8#77#8#1741#0#19"Unused Entity Issue1(3@69"file://localhost/Users/phyrrus9/iMod-Installer/imod/ViewController.mm0000000000000000^77#8#77#29#1741#8#-2@75"Property access result unused - getters should not be used for side effects-361386858#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Users/phyrrus9/iMod-Installer/imod/ViewController.mm0000000000000000^89#8#89#8#1947#0#19"Unused Entity Issue1(3@69"file://localhost/Users/phyrrus9/iMod-Installer/imod/ViewController.mm0000000000000000^89#8#89#30#1947#8#-0#0#0#-19%DVTDocumentLocation4@69"file://localhost/Users/phyrrus9/iMod-Installer/imod/ViewController.mm0000000000000000^3044"CompileC build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/ViewController.o imod/ViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/phyrrus9/iMod-Installer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-generated-files.hmap -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-own-target-headers.hmap -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-all-target-headers.hmap -iquote /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-project-headers.hmap -I/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/include -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/DerivedSources/armv7 -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/DerivedSources -F/Users/phyrrus9/iMod-Installer/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-acovvaxcqiwyeufezstfekktsrbv/imod-Prefix.pch -MMD -MT dependencies -MF /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/ViewController.dia -c /Users/phyrrus9/iMod-Installer/imod/ViewController.mm -o /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/ViewController.o36"808F6241-62CD-422F-8DEB-9A5D35B93508-
+
+CCompileC build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/main.o /Users/phyrrus9/iMod-Installer/imod/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s361386857.335468
+e361386858.084808
+r1
+xCompileC
+xbuild/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/main.o
+x/Users/phyrrus9/iMod-Installer/imod/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/phyrrus9/iMod-Installer/imod/main.m18085669538ab541^dfbf156a538ab541^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Users/phyrrus9/iMod-Installer/imod/main.m0000000000000000^2852"CompileC build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/main.o imod/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/phyrrus9/iMod-Installer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-generated-files.hmap -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-own-target-headers.hmap -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-all-target-headers.hmap -iquote /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-project-headers.hmap -I/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/include -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/DerivedSources/armv7 -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/DerivedSources -F/Users/phyrrus9/iMod-Installer/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-gfwmidszcnewuvcvfsnelbxhrpqc/imod-Prefix.pch -MMD -MT dependencies -MF /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/main.dia -c /Users/phyrrus9/iMod-Installer/imod/main.m -o /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/main.o36"906FF27F-55CE-41C2-B5E9-03ABB17DCFDA-
+
+CCompileStoryboard /Users/phyrrus9/iMod-Installer/imod/en.lproj/MainStoryboard.storyboard
+s361386859.537933
+e361386860.299815
+r1
+xCompileStoryboard
+x/Users/phyrrus9/iMod-Installer/imod/en.lproj/MainStoryboard.storyboard
+o/* com.apple.ibtool.document.warnings */
+o/Users/phyrrus9/iMod-Installer/imod/en.lproj/MainStoryboard.storyboard:Pm5-QS-olg: warning: Data Detection and Editable (These attributes are mutually exclusive) [9]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"CompileStoryboard imod/en.lproj/MainStoryboard.storyboard3bc6896b538ab541^f0c04c6c538ab541^-207"/* com.apple.ibtool.document.warnings *//Users/phyrrus9/iMod-Installer/imod/en.lproj/MainStoryboard.storyboard:Pm5-QS-olg: warning: Data Detection and Editable (These attributes are mutually exclusive) [9]1(21%IDEActivityLogMessage2@69"Data Detection and Editable (These attributes are mutually exclusive)119"/Users/phyrrus9/iMod-Installer/imod/en.lproj/MainStoryboard.storyboard:Pm5-QS-olg: warning: Data Detection and Editable361386860#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@86"file://localhost/Users/phyrrus9/iMod-Installer/imod/en.lproj/MainStoryboard.storyboard0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Users/phyrrus9/iMod-Installer/imod/en.lproj/MainStoryboard.storyboard0000000000000000^840"CompileStoryboard imod/en.lproj/MainStoryboard.storyboard    cd /Users/phyrrus9/iMod-Installer    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/en.lproj/MainStoryboard.storyboardc /Users/phyrrus9/iMod-Installer/imod/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"8F2AC968-3F33-4845-A47F-603DBD35F022-
+
+CCopyStringsFile /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/en.lproj/InfoPlist.strings imod/en.lproj/InfoPlist.strings
+s361386859.525623
+e361386859.536579
+r1
+xCopyStringsFile
+x/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/en.lproj/InfoPlist.strings
+ximod/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy imod/en.lproj/InfoPlist.strings62a1866b538ab541^e65d896b538ab541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/phyrrus9/iMod-Installer/imod/en.lproj/InfoPlist.strings0000000000000000^530"CopyStringsFile build/Release-iphoneos/imod.app/en.lproj/InfoPlist.strings imod/en.lproj/InfoPlist.strings    cd /Users/phyrrus9/iMod-Installer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/en.lproj -- imod/en.lproj/InfoPlist.strings36"1EE81475-A7CB-49CB-B4C4-6F466BF3239A-
+
+CGenerateDSYMFile /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app.dSYM /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/imod
+s361386859.367670
+e361386859.516551
+r1
+xGenerateDSYMFile
+x/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app.dSYM
+x/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/imod
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Generating /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app.dSYMa0365e6b538ab541^d93e846b538ab541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app.dSYM000000000080d041^520"GenerateDSYMFile build/Release-iphoneos/imod.app.dSYM build/Release-iphoneos/imod.app/imod    cd /Users/phyrrus9/iMod-Installer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/imod -o /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app.dSYM36"FE5587A1-796B-482E-9C65-AB8493417FBE-
+
+CLd /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/imod normal armv7
+s361386858.675547
+e361386859.359922
+r1
+xLd
+x/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/imod
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Link /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/imod9d10b26a538ab541^cd225c6b538ab541^---0#0#0#--954"Ld build/Release-iphoneos/imod.app/imod normal armv7    cd /Users/phyrrus9/iMod-Installer    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/phyrrus9/iMod-Installer/build/Release-iphoneos -F/Users/phyrrus9/iMod-Installer/build/Release-iphoneos -filelist /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/imod.LinkFileList -dead_strip -miphoneos-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/imod36"0999E4AF-BC1D-4C6B-9B4B-CED15EF4FDD1-
+
+CPhaseScriptExecution "Run Script" /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Script-50524F424C454D533F.sh
+s361386860.307664
+e361386862.403439
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Script-50524F424C454D533F.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'35b24f6c538ab541^ed46676e538ab541^---0#0#0#--18410"PhaseScriptExecution "Run Script" build/imod.build/Release-iphoneos/imod.build/Script-50524F424C454D533F.sh    cd /Users/phyrrus9/iMod-Installer    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER phyrrus9    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD_32_64_BIT armv7    setenv ARCHS_STANDARD_32_BIT armv7    setenv ARCHS_UNIVERSAL_IPHONE_OS armv7    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/phyrrus9/iMod-Installer/build    setenv BUILD_ROOT /Users/phyrrus9/iMod-Installer/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/phyrrus9/iMod-Installer/build/Release-iphoneos    setenv CACHE_ROOT /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED NO    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR /Users/phyrrus9/iMod-Installer/build/Release-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos    setenv CONTENTS_FOLDER_PATH imod.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH imod.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/imod.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME imod.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/phyrrus9/iMod-Installer/build/Release-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH imod.app/Executables    setenv EXECUTABLE_FOLDER_PATH imod.app    setenv EXECUTABLE_NAME imod    setenv EXECUTABLE_PATH imod.app/imod    setenv FILE_LIST /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH imod.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/phyrrus9/iMod-Installer/build/Release-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME imod.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER imod/imod-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE imod/imod-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH imod.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH imod.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/imod.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER phyrrus9    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/imod.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH imod.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/phyrrus9/iMod-Installer/build/Release-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal/armv7/imod.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH imod.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11D50d    setenv MAC_OS_X_VERSION_ACTUAL 1073    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0703    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Objects-normal    setenv OBJROOT /Users/phyrrus9/iMod-Installer/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS -DNS_BLOCK_ASSERTIONS=1    setenv OTHER_CPLUSPLUSFLAGS -DNS_BLOCK_ASSERTIONS=1    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH imod.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "objective-c objective-c++"    setenv PKGINFO_FILE_PATH /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/PkgInfo    setenv PKGINFO_PATH imod.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH armv7    setenv PLATFORM_PRODUCT_BUILD_VERSION 9B176    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH imod.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH imod.app/PrivateHeaders    setenv PRODUCT_NAME imod    setenv PRODUCT_SETTINGS_PATH /Users/phyrrus9/iMod-Installer/imod/imod-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT imod    setenv PROJECT_DERIVED_FILE_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/DerivedSources    setenv PROJECT_DIR /Users/phyrrus9/iMod-Installer    setenv PROJECT_FILE_PATH /Users/phyrrus9/iMod-Installer/imod.xcodeproj    setenv PROJECT_NAME imod    setenv PROJECT_TEMP_DIR /Users/phyrrus9/iMod-Installer/build/imod.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH imod.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/phyrrus9/iMod-Installer/build/Release-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH imod.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk    setenv SDK_NAME iphoneos5.1    setenv SDK_PRODUCT_BUILD_VERSION 9B176    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH imod.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH imod.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/phyrrus9/iMod-Installer    setenv SRCROOT /Users/phyrrus9/iMod-Installer    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/phyrrus9/iMod-Installer/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME imod    setenv TARGET_BUILD_DIR /Users/phyrrus9/iMod-Installer/build/Release-iphoneos    setenv TARGET_NAME imod    setenv TARGET_TEMP_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build    setenv TEMP_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build    setenv TEMP_FILES_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build    setenv TEMP_FILE_DIR /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build    setenv TEMP_ROOT /Users/phyrrus9/iMod-Installer/build    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH imod.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER phyrrus9    setenv USER_APPS_DIR /Users/phyrrus9/Applications    setenv USER_LIBRARY_DIR /Users/phyrrus9/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT YES    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH imod.app/version.plist    setenv VERSION_INFO_BUILDER phyrrus9    setenv VERSION_INFO_FILE imod_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:imod  PROJECT:imod-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME imod.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4E2002    setenv XCODE_VERSION_ACTUAL 0432    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0430    setenv YACC yacc    /bin/sh -c /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/Script-50524F424C454D533F.sh36"2ABBEC11-546C-4530-866D-7D673D52B87B-
+
+CProcessInfoPlistFile /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/Info.plist imod/imod-Info.plist
+s361386853.997175
+e361386854.127863
+r1
+xProcessInfoPlistFile
+x/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/Info.plist
+ximod/imod-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process imod/imod-Info.plist2156ff65538ab541^f1d52266538ab541^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/phyrrus9/iMod-Installer/imod/imod-Info.plist0000000000000000^576"ProcessInfoPlistFile build/Release-iphoneos/imod.app/Info.plist imod/imod-Info.plist    cd /Users/phyrrus9/iMod-Installer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility imod/imod-Info.plist -genpkginfo /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/Info.plist36"CFB2732F-957C-421B-A50F-948554908F5C-
+
+CProcessPCH /Users/phyrrus9/Library/Developer/Xcode/DerivedData/imod-dczjhsibvzvhfodxnqztfbfwzuvg/Index/PrecompiledHeaders/imod-Prefix-apfrecxjtdtrzidmrsrstiwtpdsa_ast/imod-Prefix.pch.pth imod/imod-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-gfwmidszcnewuvcvfsnelbxhrpqc/imod-Prefix.pch.pth imod/imod-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s361386854.135649
+e361386857.297142
+r1
+xProcessPCH
+x/var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-gfwmidszcnewuvcvfsnelbxhrpqc/imod-Prefix.pch.pth
+ximod/imod-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile imod/imod-Prefix.pch50df2266538ab541^34f65569538ab541^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/phyrrus9/iMod-Installer/imod/imod-Prefix.pch0000000000000000^2950"ProcessPCH /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-gfwmidszcnewuvcvfsnelbxhrpqc/imod-Prefix.pch.pth imod/imod-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/phyrrus9/iMod-Installer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-generated-files.hmap -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-own-target-headers.hmap -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-all-target-headers.hmap -iquote /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-project-headers.hmap -I/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/include -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/DerivedSources/armv7 -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/DerivedSources -F/Users/phyrrus9/iMod-Installer/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-gfwmidszcnewuvcvfsnelbxhrpqc/imod-Prefix.pch.dia -c /Users/phyrrus9/iMod-Installer/imod/imod-Prefix.pch -o /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-gfwmidszcnewuvcvfsnelbxhrpqc/imod-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-gfwmidszcnewuvcvfsnelbxhrpqc/imod-Prefix.pch.d36"E4132E98-CFBB-4800-98D5-2E17D36B7CFB-
+
+CProcessPCH++ /Users/phyrrus9/Library/Developer/Xcode/DerivedData/imod-dczjhsibvzvhfodxnqztfbfwzuvg/Index/PrecompiledHeaders/imod-Prefix-gvkdftsmncqbjlflsdkbcbzibkgi_ast/imod-Prefix.pch.pth imod/imod-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-acovvaxcqiwyeufezstfekktsrbv/imod-Prefix.pch.pth imod/imod-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361386854.135746
+e361386857.678423
+r1
+xProcessPCH++
+x/var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-acovvaxcqiwyeufezstfekktsrbv/imod-Prefix.pch.pth
+ximod/imod-Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile imod/imod-Prefix.pch76de2266538ab541^be14ae69538ab541^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/phyrrus9/iMod-Installer/imod/imod-Prefix.pch0000000000000000^3082"ProcessPCH++ /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-acovvaxcqiwyeufezstfekktsrbv/imod-Prefix.pch.pth imod/imod-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/phyrrus9/iMod-Installer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-generated-files.hmap -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-own-target-headers.hmap -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-all-target-headers.hmap -iquote /Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/imod-project-headers.hmap -I/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/include -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/DerivedSources/armv7 -I/Users/phyrrus9/iMod-Installer/build/imod.build/Release-iphoneos/imod.build/DerivedSources -F/Users/phyrrus9/iMod-Installer/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-acovvaxcqiwyeufezstfekktsrbv/imod-Prefix.pch.dia -c /Users/phyrrus9/iMod-Installer/imod/imod-Prefix.pch -o /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-acovvaxcqiwyeufezstfekktsrbv/imod-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/mp/8f20tvp501jczqz4q11fbnkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/imod-Prefix-acovvaxcqiwyeufezstfekktsrbv/imod-Prefix.pch.d36"42B43C74-6901-4A68-8807-BB9DEACF9DBD-
+
+CTouch /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app
+s361386862.412274
+e361386862.443509
+r1
+xTouch
+x/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Touch /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.appe198696e538ab541^ca8a716e538ab541^---0#0#0#--349"Touch build/Release-iphoneos/imod.app    cd /Users/phyrrus9/iMod-Installer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app36"BBEA52BE-90E2-4500-8F1B-1CBD9A1999ED-
+
+CValidate /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app
+s361386862.452051
+e361386862.893301
+r1
+xValidate
+x/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+owarning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)
+oExecutable=/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/imod
+oAssertMacros: message,  file: codesign_wrapper.c, line: 554
+oAssertMacros: profile,  file: codesign_wrapper.c, line: 918
+ocodesign_wrapper-0.7.10: Failed to load provision profile from: /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/embedded.mobileprovision
+o - (null)
+o
+owarning: This bundle is invalid. The application-identifier entitlement is not formatted correctly; it should contain your 10-character App ID Seed, followed by a dot, followed by your bundle identifier: my.company.imod (-19053)
+oUnable to validate your application. - (null)
+o
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Validate build/Release-iphoneos/imod.app08cc736e538ab541^73bee46e538ab541^-1080"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)warning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)Executable=/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/imodAssertMacros: message,  file: codesign_wrapper.c, line: 554AssertMacros: profile,  file: codesign_wrapper.c, line: 918codesign_wrapper-0.7.10: Failed to load provision profile from: /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/embedded.mobileprovision - (null)warning: This bundle is invalid. The application-identifier entitlement is not formatted correctly; it should contain your 10-character App ID Seed, followed by a dot, followed by your bundle identifier: my.company.imod (-19053)Unable to validate your application. - (null)3(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57361386862#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---2@175" Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)165"Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate.361386862#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---2@220" This bundle is invalid. The application-identifier entitlement is not formatted correctly; it should contain your 10-character App ID Seed, followed by a dot, followed by your bundle identifier: my.company.imod (-19053)210"This bundle is invalid. The application-identifier entitlement is not formatted correctly; it should contain your 10-character App ID Seed, followed by a dot, followed by your bundle identifier: my.company.imod361386862#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@79"file://localhost/Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app/0000000000000000^493"Validate build/Release-iphoneos/imod.app    cd /Users/phyrrus9/iMod-Installer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/phyrrus9/iMod-Installer/build/Release-iphoneos/imod.app36"9C776A82-24BD-450F-A54B-C5C6012F0A89-
+
