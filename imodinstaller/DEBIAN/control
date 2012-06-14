@@ -6,3 +6,5 @@ Description: a simple application to install iMod
 Maintainer: Ethan Laur <phyrrus9@gmail.com>
 Author: Ethan Laur (phyrrus9) <phyrrus9@gmail.com>
 Section: Tweaks
+Conflicts: sudo
+

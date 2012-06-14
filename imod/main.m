@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
 {
     setuid(0);
     system("whoami");
+    //system("sudo dpkg -i /Applications/imod.app/imod.deb");
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
