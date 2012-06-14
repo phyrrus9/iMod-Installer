@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Icon.png</key>
+		<data>
+		D4tgmnd+Ry0yqexgCjM2HXNJ2y8=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		KBhmZ+asasYlJxpddgbT2ffG3lY=
+		/7mgm4YoDuH4DXnX1tmtpxWwaDI=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -25,7 +29,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kKhRXT/Z/TNJZM6YeDcCgQFXoG0=
+			57RqxPhZ5TqLCZT4F763n8MLU1U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -43,7 +47,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OvT6kw+C0u5nhz5T0UDAmqVbTtE=
+			Gg1SfitznnqLL2BtObgNwblAu2c=
 			</data>
 			<key>optional</key>
 			<true/>

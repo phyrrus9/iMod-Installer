@@ -15,6 +15,7 @@
 		4AEFE5CD158A2B6E00D4D627 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEFE5CC158A2B6E00D4D627 /* AppDelegate.m */; };
 		4AEFE5D0158A2B6E00D4D627 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEFE5CE158A2B6E00D4D627 /* MainStoryboard.storyboard */; };
 		4AEFE5D3158A2B6E00D4D627 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4AEFE5D2158A2B6E00D4D627 /* ViewController.mm */; };
+		4AEFE5F1158A657800D4D627 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AEFE5F0158A657800D4D627 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		4AEFE5CF158A2B6E00D4D627 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4AEFE5D1158A2B6E00D4D627 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4AEFE5D2158A2B6E00D4D627 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		4AEFE5F0158A657800D4D627 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		4AEFE5AD158A2B6E00D4D627 = {
 			isa = PBXGroup;
 			children = (
+				4AEFE5F0158A657800D4D627 /* Icon.png */,
 				4AEFE5C2158A2B6E00D4D627 /* imod */,
 				4AEFE5BB158A2B6E00D4D627 /* Frameworks */,
 				4AEFE5B9158A2B6E00D4D627 /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				4AEFE5C7158A2B6E00D4D627 /* InfoPlist.strings in Resources */,
 				4AEFE5D0158A2B6E00D4D627 /* MainStoryboard.storyboard in Resources */,
+				4AEFE5F1158A657800D4D627 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
