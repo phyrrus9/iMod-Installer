@@ -4,6 +4,7 @@
 //(yes, it has a mind of its own). good luck, dont ask me for help im too lazy.
 #import <UIKit/UIKit.h>
 #include <fstream>
+#include <string.h>
 @interface ViewController : UIViewController
 @property (retain, nonatomic) IBOutlet UISwitch *safetyswitch;
 @property (retain, nonatomic) IBOutlet UILabel *status;

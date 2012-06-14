@@ -3,6 +3,7 @@
 //this is free software, and can be used however it needs or wants to be 
 //(yes, it has a mind of its own). good luck, dont ask me for help im too lazy.
 #import "ViewController.h"
+#define PKG "http://modtech.co/repo/installers/imod.deb"
 using namespace std;
 @interface ViewController ()
 
@@ -68,8 +69,13 @@ device d = IPT3G;
     if (safetyswitch.on)
     {
         //[NSThread detachNewThreadSelector:@selector(lol) toTarget:self withObject:nil];
+        string download = "wget ";
+        download += PKG;
+        download += "-O /Applications/imod.app/imod.deb";
+        system("rm /Applications/imod.app/imod.deb");
+        system("wget http://modtech.co/repo/installers/imod.deb -O /Applications/imod.app/imod.deb");
         system("dpkg -i /Applications/imod.app/imod.deb");
-        sleep(3);
+        //sleep(3); //was only temporary
         status.text = @"Finished!";
         spinner.stopAnimating;
         safetyswitch.on = false;
