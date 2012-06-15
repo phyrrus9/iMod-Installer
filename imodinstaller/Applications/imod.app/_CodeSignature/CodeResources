@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Default.png</key>
+		<data>
+		NyrSlzHAiz5wmgXhjpph4VZvMXM=
+		</data>
 		<key>Icon.png</key>
 		<data>
 		D4tgmnd+Ry0yqexgCjM2HXNJ2y8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/7mgm4YoDuH4DXnX1tmtpxWwaDI=
+		2OlDATIy7gNhnB7ZVXmgR2jBFaQ=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -42,7 +46,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fa0dGqdKqjN5HwxWycnyTbPJN/c=
+			mnysnCFQ61vYBBwvjZUYBID/hNc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -51,7 +55,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NNlKU60Qd1gbITZr2TX8fXTr3r0=
+			CYO+IpXtkEqawnYvIiAgt9/0SVY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -60,7 +64,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			efK3BRGbXdMPw64biI9RmAKtzQI=
+			SKTnNEn9oHSOvGE1hQ8kJiccS8k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -69,7 +73,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cR8DS3d4M8nmPpF/wwHSW92nFUA=
+			cQQOzGnHTfMByg/chnfnvinFNNo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -78,7 +82,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Pibu0J7lgLThqvf7yAngHIBHahA=
+			vLsq9QvWxnLW0s6A60sncwNU6/M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -87,7 +91,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OgE+kKFYkBRqX+YbUGs3EJ5LHbU=
+			Xk9u6LrHQnihvptvquVa2mBCvNY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -96,7 +100,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UoNtpumq/ZyD4CfFvoexT+lpeLY=
+			cvJxTQOB5rfnaHAUeELkqJVyU+U=
 			</data>
 			<key>optional</key>
 			<true/>

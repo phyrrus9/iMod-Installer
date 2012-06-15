@@ -6,6 +6,7 @@
 
 #include <fstream>
 #include <string.h>
+#include <iostream>
 @class Reachability;
 @interface ViewController : UIViewController
 int checkforupdate(void);
@@ -15,6 +16,7 @@ int checkforupdate(void);
 - (IBAction)statuschange:(id)sender;
 @property (retain, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 - (IBAction)longpressinstall:(id)sender;
+- (IBAction)pinch:(id)sender;
 @property (retain, nonatomic) IBOutlet UILabel *devicelabel;
 @property (retain, nonatomic) IBOutlet UIButton *optionsbutton;
 @property (retain, nonatomic) IBOutlet UILabel *optionslabel;

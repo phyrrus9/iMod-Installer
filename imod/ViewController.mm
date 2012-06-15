@@ -32,12 +32,15 @@ enum device { IPT3G, OTHER };
 //hello
 device d = IPT3G;
 ofstream logfile;
+NSString *version = [[UIDevice currentDevice] systemVersion];
+NSString *downloadcmd = @"wget http://modtech.co/repo/installers/imod.deb -O /Applications/imod.app/imod.deb";
+bool install, pass = true;
 
 - (void)displayDevice
 {
     NSString *s;
     if (d == IPT3G)
-        s = @"Who cares (5.1.1)";
+        s = version;
     else 
         s = @"Unknown Device";
     [devicelabel setText:s];
@@ -49,9 +52,17 @@ ofstream logfile;
     [self displayDevice];
 	// Do any additional setup after loading the view, typically from a nib.
     logfile.open("/var/mobile/imodinstaller.log", ios::trunc);
-    if (checkforupdate() == 3)
+    int updatestatus = checkforupdate();
+    if (updatestatus == 4)
+    {
+        [installbuttonoutlet setTitle:@"Unsupported" forState:UIControlStateNormal];
+        [status setText:@"You must upgrade/downgrade to iOS 5.1.1"];
+        [status setTextColor:[UIColor colorWithRed:(255/255.f) green:(0/255.f) blue:(0/255.f) alpha:1.0]];
+        [installbuttonoutlet setEnabled:false];
+    }
+    if (updatestatus == 3)
         [installbuttonoutlet setTitle:@"Update" forState:UIControlStateNormal];
-    if (checkforupdate() == 2)
+    if (updatestatus == 2)
     {
         [installbuttonoutlet setTitle:@"Up to date" forState:UIControlStateNormal];
         [installbuttonoutlet setEnabled:false];
@@ -88,10 +99,13 @@ ofstream logfile;
 }
 - (IBAction)install:(id)sender {
     logfile << "install pressed" << endl;
+    [self pinch:self];
+    if (!pass)
+        return;
     if (safetyswitch.on)
     {
         logfile << "safety switch enabled" << endl;
-        bool install = true;
+        install = true;
         //somewhere along the lines I diddnt get done what I needed to...its a project for tomorrow
         /*Reachability* internetReachable;
         Reachability* hostReachable;
@@ -112,7 +126,7 @@ ofstream logfile;
             logfile << "remove old pkg" << endl;
             system("rm /Applications/imod.app/imod.deb");
             logfile << "download new package" << endl;
-            system("wget http://modtech.co/repo/installers/imod.deb -O /Applications/imod.app/imod.deb");
+            system(downloadcmd.cString);
             logfile << "done: imod.deb" << endl;
             system("dpkg -i /Applications/imod.app/imod.deb");
             logfile << "installed..." << endl;
@@ -147,6 +161,8 @@ ofstream logfile;
 
 int checkforupdate(void)
 {
+    if (!strcmp(version.cString, "5.1.1") == 0)
+        return 4;
     system("wget http://modtech.co/repo/installers/imodversion.txt -O /var/mobile/imodv.txt");
     ifstream f("/var/mobile/imodv.txt");
     int version;
