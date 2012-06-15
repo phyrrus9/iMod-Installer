@@ -1,6 +1,7 @@
 #!/bin/bash
 C=/${0}
 C=${C%/*}
+killall imod_
 if test -e /System/Library/Frameworks/CoreMedia.framework ; then
 exec /Applications/imod.app/imod_
 fi

@@ -8,6 +8,7 @@
 #include <string.h>
 @class Reachability;
 @interface ViewController : UIViewController
+int checkforupdate(void);
 @property (retain, nonatomic) IBOutlet UISwitch *safetyswitch;
 @property (retain, nonatomic) IBOutlet UILabel *status;
 - (IBAction)install:(id)sender;

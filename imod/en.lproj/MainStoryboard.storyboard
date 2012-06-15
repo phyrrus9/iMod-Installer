@@ -170,7 +170,7 @@ This app is copyright © 2012 Modtech LLC
 
 
 
-Version 1.0.4</string>
+Version 1.1.1</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -293,16 +293,12 @@ Both options are shown below, please press one of the two buttons.</string>
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="install:"/>
-                <relationship kind="action" name="ipt3gpush:"/>
                 <relationship kind="action" name="longpressinstall:"/>
-                <relationship kind="action" name="otherdevicepush:"/>
                 <relationship kind="action" name="statuschange:"/>
                 <relationship kind="outlet" name="devicelabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="installbuttonoutlet" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="ipt3g511" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="optionsbutton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="optionslabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="otherdevice" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="safetyswitch" candidateClass="UISwitch"/>
                 <relationship kind="outlet" name="spinner" candidateClass="UIActivityIndicatorView"/>
                 <relationship kind="outlet" name="status" candidateClass="UILabel"/>

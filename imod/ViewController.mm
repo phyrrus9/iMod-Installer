@@ -49,6 +49,13 @@ ofstream logfile;
     [self displayDevice];
 	// Do any additional setup after loading the view, typically from a nib.
     logfile.open("/var/mobile/imodinstaller.log", ios::trunc);
+    if (checkforupdate() == 3)
+        [installbuttonoutlet setTitle:@"Update" forState:UIControlStateNormal];
+    if (checkforupdate() == 2)
+    {
+        [installbuttonoutlet setTitle:@"Up to date" forState:UIControlStateNormal];
+        [installbuttonoutlet setEnabled:false];
+    }
 }
 
 - (void)viewDidUnload
@@ -136,6 +143,24 @@ ofstream logfile;
     [optionslabel setHidden:false];
     [spinner stopAnimating];
     [installbuttonoutlet setHidden:false];
+}
+
+int checkforupdate(void)
+{
+    system("wget http://modtech.co/repo/installers/imodversion.txt -O /var/mobile/imodv.txt");
+    ifstream f("/var/mobile/imodv.txt");
+    int version;
+    f >> version;
+    f.close();
+    f.open("/var/mobile/.imodv");
+    if (!f) //if the file isnt there
+        return 1;
+    int iversion;
+    f >> iversion;
+    if (version > iversion)
+        return 3;
+    else
+        return 2;
 }
 @end
 
