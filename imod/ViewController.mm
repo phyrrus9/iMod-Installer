@@ -99,7 +99,7 @@ bool install, pass = true;
 }
 - (IBAction)install:(id)sender {
     logfile << "install pressed" << endl;
-    [self pinch:self];
+    //[self pinch:self];
     if (!pass)
         return;
     if (safetyswitch.on)
