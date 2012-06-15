@@ -23,6 +23,7 @@ using namespace std;
 @synthesize devicelabel;
 @synthesize optionsbutton;
 @synthesize optionslabel;
+@synthesize installbuttonoutlet;
 @synthesize spinner;
 @synthesize safetyswitch;
 @synthesize status;
@@ -58,6 +59,7 @@ ofstream logfile;
     [self setDevicelabel:nil];
     [self setOptionsbutton:nil];
     [self setOptionslabel:nil];
+    [self setInstallbuttonoutlet:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -74,6 +76,7 @@ ofstream logfile;
     [devicelabel release];
     [optionsbutton release];
     [optionslabel release];
+    [installbuttonoutlet release];
     [super dealloc];
 }
 - (IBAction)install:(id)sender {
@@ -123,6 +126,7 @@ ofstream logfile;
 - (IBAction)statuschange:(id)sender {
     if (safetyswitch.on)
     {
+        [installbuttonoutlet setHidden:true];
         status.text = @"Installing...";
         spinner.startAnimating;
     }
@@ -131,6 +135,7 @@ ofstream logfile;
     [optionsbutton setHidden:false];
     [optionslabel setHidden:false];
     [spinner stopAnimating];
+    [installbuttonoutlet setHidden:false];
 }
 @end
 

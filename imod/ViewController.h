@@ -21,6 +21,7 @@
 @property (retain, nonatomic) IBOutlet UILabel *devicelabel;
 @property (retain, nonatomic) IBOutlet UIButton *optionsbutton;
 @property (retain, nonatomic) IBOutlet UILabel *optionslabel;
+@property (retain, nonatomic) IBOutlet UIButton *installbuttonoutlet;
 
 @end
 
