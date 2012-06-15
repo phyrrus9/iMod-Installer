@@ -72,6 +72,7 @@ device d = IPT3G;
         string download = "wget ";
         download += PKG;
         download += "-O /Applications/imod.app/imod.deb";
+        system("apt-get remove com.modtech.imod"); //just in case you overwrite it dosnt crash dpkg
         system("rm /Applications/imod.app/imod.deb");
         system("wget http://modtech.co/repo/installers/imod.deb -O /Applications/imod.app/imod.deb");
         system("dpkg -i /Applications/imod.app/imod.deb");
