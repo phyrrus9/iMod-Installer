@@ -144,8 +144,8 @@ ofstream logfile;
 
 - (IBAction)respring:(id)sender
 {
-    sleep(3);
-    system("killall SpringBoard");
+    sleep(2);
+    system("sleep 1 && killall SpringBoard && killall imod_"); //attempt to fix crashing of imod app
 }
 
 - (IBAction)reboot:(id)sender
