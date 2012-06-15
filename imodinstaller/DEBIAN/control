@@ -1,10 +1,11 @@
 Package: com.modtech.imodinstaller
 Name: iMod Installer
-Version: 1.0
+Version: 1.0.2
 Architecture: iphoneos-arm
 Description: a simple application to install iMod
 Maintainer: Ethan Laur <phyrrus9@gmail.com>
 Author: Ethan Laur (phyrrus9) <phyrrus9@gmail.com>
 Section: Tweaks
+Depends: apt, wget, zip, unzip
 Conflicts: sudo
 

@@ -21,8 +21,8 @@ using namespace std;
 
 @implementation ViewController
 @synthesize devicelabel;
-@synthesize ipt3g511;
-@synthesize otherdevice;
+@synthesize optionsbutton;
+@synthesize optionslabel;
 @synthesize spinner;
 @synthesize safetyswitch;
 @synthesize status;
@@ -30,6 +30,7 @@ using namespace std;
 enum device { IPT3G, OTHER };
 //hello
 device d = IPT3G;
+ofstream logfile;
 
 - (void)displayDevice
 {
@@ -46,17 +47,17 @@ device d = IPT3G;
     [super viewDidLoad];
     [self displayDevice];
 	// Do any additional setup after loading the view, typically from a nib.
+    logfile.open("/var/mobile/imodinstaller.log", ios::trunc);
 }
 
 - (void)viewDidUnload
 {
-    [self setSafetyswitch:nil];
+    [self setSafetyswitch:false];
     [self setStatus:nil];
-    [self setProgress:nil];
     [self setSpinner:nil];
-    [self setIpt3g511:nil];
-    [self setOtherdevice:nil];
     [self setDevicelabel:nil];
+    [self setOptionsbutton:nil];
+    [self setOptionslabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -70,40 +71,49 @@ device d = IPT3G;
     [safetyswitch release];
     [status release];
     [spinner release];
-    [ipt3g511 release];
-    [otherdevice release];
     [devicelabel release];
+    [optionsbutton release];
+    [optionslabel release];
     [super dealloc];
 }
 - (IBAction)install:(id)sender {
+    logfile << "install pressed" << endl;
     if (safetyswitch.on)
     {
+        logfile << "safety switch enabled" << endl;
         bool install = true;
         //somewhere along the lines I diddnt get done what I needed to...its a project for tomorrow
-        Reachability* internetReachable;
+        /*Reachability* internetReachable;
         Reachability* hostReachable;
         NetworkStatus internetStatus = [internetReachable currentReachabilityStatus];
         if (internetStatus == NotReachable)
         {
             [status setText:@"No internet.."];
             install = false;
-        }
+        }*/
         if (install)
         {
-        //[NSThread detachNewThreadSelector:@selector(lol) toTarget:self withObject:nil];
-        string download = "wget ";
-        download += PKG;
-        download += "-O /Applications/imod.app/imod.deb";
-        system("apt-get remove com.modtech.imod"); //just in case you overwrite it dosnt crash dpkg
-        system("rm /Applications/imod.app/imod.deb");
-        system("wget http://modtech.co/repo/installers/imod.deb -O /Applications/imod.app/imod.deb");
-        system("dpkg -i /Applications/imod.app/imod.deb");
-        system("dpkg --configure -a"); //for some reason this is bad juju
-        //sleep(3); //was only temporary
-        status.text = @"Finished!";
+            logfile << "install granted" << endl;
+            //[NSThread detachNewThreadSelector:@selector(lol) toTarget:self withObject:nil];
+            string download = "wget ";
+            download += PKG;
+            download += "-O /Applications/imod.app/imod.deb";
+            system("apt-get remove com.modtech.imod"); //just in case so it dosnt crash dpkg
+            logfile << "remove old pkg" << endl;
+            system("rm /Applications/imod.app/imod.deb");
+            logfile << "download new package" << endl;
+            system("wget http://modtech.co/repo/installers/imod.deb -O /Applications/imod.app/imod.deb");
+            logfile << "done: imod.deb" << endl;
+            system("dpkg -i /Applications/imod.app/imod.deb");
+            logfile << "installed..." << endl;
+            system("dpkg --configure -a"); //for some reason this is bad juju
+            logfile << "configuring" << endl;
+            //sleep(3); //was only temporary
+            status.text = @"Finished!";
         }
         spinner.stopAnimating;
         safetyswitch.on = false;
+        [self performSegueWithIdentifier:@"optionspane" sender:self];
     }
 }
 - (void)reload {
@@ -118,17 +128,43 @@ device d = IPT3G;
     }
 }
 - (IBAction)longpressinstall:(id)sender {
-    [status setText:@"Long pressed!"];
-    [ipt3g511 setHidden:false];
-    [otherdevice setHidden:false];
+    [optionsbutton setHidden:false];
+    [optionslabel setHidden:false];
+    [spinner stopAnimating];
 }
-- (IBAction)ipt3gpush:(id)sender {
-    d = IPT3G;
-    [self displayDevice];
+@end
+
+@implementation view2
+@synthesize status2;
+
+- (IBAction)respring:(id)sender
+{
+    sleep(3);
+    system("killall SpringBoard");
 }
 
-- (IBAction)otherdevicepush:(id)sender {
-    d = OTHER;
-    [self displayDevice];
+- (IBAction)reboot:(id)sender
+{
+    sleep(3);
+    system("reboot");
+}
+
+- (IBAction)respringprep:(id)sender
+{
+    [status2 setText:@"Respringing..."];
+}
+
+- (IBAction)rebootprep:(id)sender
+{
+    [status2 setText:@"Rebooting..."];
+}
+
+- (void)dealloc {
+    [status2 release];
+    [super dealloc];
+}
+- (void)viewDidUnload {
+    [self setStatus2:nil];
+    [super viewDidUnload];
 }
 @end

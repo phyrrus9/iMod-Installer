@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
-        <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
@@ -80,36 +79,6 @@ iMod will install an update to your device that will modify important system fil
                                 <rect key="frame" x="10" y="361" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="c47-rz-TIn">
-                                <rect key="frame" x="0.0" y="383" width="168" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="iPod Touch 3G 5.1.1">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="ipt3gpush:" destination="2" eventType="touchUpInside" id="anB-q5-HKA"/>
-                                </connections>
-                            </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Swv-Oe-cBq">
-                                <rect key="frame" x="176" y="383" width="72" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Other">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otherdevicepush:" destination="2" eventType="touchUpInside" id="mQC-dz-Bas"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Device:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ehS-aj-j9k">
                                 <rect key="frame" x="10" y="328" width="57" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -124,21 +93,227 @@ iMod will install an update to your device that will modify important system fil
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="ggg-qr-bIj">
+                                <rect key="frame" x="296" y="295" width="18" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="HPi-c4-leW" kind="modal" modalTransitionStyle="flipHorizontal" id="92e-q1-guF"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lf4-bo-m6E">
+                                <rect key="frame" x="2" y="386" width="42" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="Icon.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Cd4-ND-XJe" kind="modal" identifier="optionspane" modalTransitionStyle="crossDissolve" id="Hag-45-ny1"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt;-----------Options" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="KtR-qT-VtL">
+                                <rect key="frame" x="52" y="394" width="143" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="devicelabel" destination="uT5-CP-gfJ" id="7uc-6M-Kxf"/>
-                        <outlet property="ipt3g511" destination="c47-rz-TIn" id="L5k-6t-kom"/>
-                        <outlet property="otherdevice" destination="Swv-Oe-cBq" id="Df9-Vh-IKg"/>
+                        <outlet property="optionsbutton" destination="Lf4-bo-m6E" id="jKP-om-i9a"/>
+                        <outlet property="optionslabel" destination="KtR-qT-VtL" id="3yc-XK-qwN"/>
                         <outlet property="safetyswitch" destination="0ll-cx-43T" id="cib-ok-yir"/>
                         <outlet property="spinner" destination="Xqb-uN-j7L" id="FCE-1x-DfU"/>
                         <outlet property="status" destination="EI6-eI-1Oq" id="tKh-u5-3r4"/>
                     </connections>
                 </viewController>
             </objects>
+            <point key="canvasLocation" x="38" y="-46"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TJ1-8Y-qUY">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iu8-Pt-WBr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="HPi-c4-leW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u84-1e-zXG">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="9HU-vb-nVU">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">iMod is a complete redesign on top of Apple's iPhone OS 5.1.1 and the Rocky Racoon jailbreak (Absinthe 2.0 or greenpois0n 3). iMod will add many new features to your device and will recieve updates periodically throughout the year. The goal of this mod is to bring new features to older devices (siri, passbook, etc).
+
+iMod is a product of Modtech LLC http://modtech.co
+iMod was written in full by Ethan Laur (phyrrus9) &lt;phyrrus9@gmail.com>.
+
+This app is copyright © 2012 Modtech LLC
+
+
+
+Version 1.0.3</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" id="vE0-zs-gSZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Info/About" id="ycE-l6-kBS">
+                                        <barButtonItem key="leftBarButtonItem" title="Done" id="1fY-tP-Ura">
+                                            <connections>
+                                                <segue destination="2" kind="modal" modalTransitionStyle="flipHorizontal" id="6vF-hv-6Dj"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="424" y="-60"/>
+        </scene>
+        <!--View2-->
+        <scene sceneID="Gaw-9Q-Dub">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jmw-jm-mf7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Cd4-ND-XJe" customClass="view2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hPj-6K-Q2J" customClass="view2a">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" id="Iiv-ro-mD2">
+                                <rect key="frame" x="0.0" y="44" width="320" height="127"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Install finished, you must now respring your device to see changes (or possibly even reboot)
+
+Both options are shown below, please press one of the two buttons.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" id="RAB-Rj-On9">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Options" id="9N9-Zw-Z10"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PG3-QG-c6C">
+                                <rect key="frame" x="0.0" y="324" width="44" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="Icon.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="respring:" destination="Cd4-ND-XJe" eventType="touchUpInside" id="WxM-ps-juQ"/>
+                                    <action selector="respringprep:" destination="Cd4-ND-XJe" eventType="touchDown" id="hJq-hq-DfI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt;----------------------------Respring" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="bzj-Cs-p80">
+                                <rect key="frame" x="52" y="332" width="272" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yKL-sO-Efr">
+                                <rect key="frame" x="0.0" y="361" width="44" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="Icon.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="reboot:" destination="Cd4-ND-XJe" eventType="touchUpInside" id="r18-EJ-5yE"/>
+                                    <action selector="rebootprep:" destination="Cd4-ND-XJe" eventType="touchDown" id="FsQ-ey-bg7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt;----------------------------Reboot" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ie8-7p-Fnx">
+                                <rect key="frame" x="52" y="369" width="252" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Waiting for action..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ct7-fa-BwM">
+                                <rect key="frame" x="2" y="413" width="318" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="status2" destination="ct7-fa-BwM" id="okX-CY-eCs"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="278" y="520"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Icon.png" width="57" height="57"/>
+    </resources>
+    <classes>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="install:"/>
+                <relationship kind="action" name="ipt3gpush:"/>
+                <relationship kind="action" name="longpressinstall:"/>
+                <relationship kind="action" name="otherdevicepush:"/>
+                <relationship kind="action" name="statuschange:"/>
+                <relationship kind="outlet" name="devicelabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="ipt3g511" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="optionsbutton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="optionslabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="otherdevice" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="safetyswitch" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="spinner" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="status" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="view2" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/view2.h"/>
+            <relationships>
+                <relationship kind="action" name="reboot:"/>
+                <relationship kind="action" name="rebootprep:"/>
+                <relationship kind="action" name="respring:"/>
+                <relationship kind="action" name="respringprep:"/>
+                <relationship kind="outlet" name="status2" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

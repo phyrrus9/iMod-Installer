@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4A78D28A158ACEDB00410ABE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A78D289158ACEDB00410ABE /* Reachability.m */; };
 		4A78D28D158ACEE600410ABE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A78D28C158ACEE600410ABE /* SystemConfiguration.framework */; };
+		4A78D28F158B6A8800410ABE /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A78D28E158B6A8800410ABE /* Settings.bundle */; };
 		4AEFE5BD158A2B6E00D4D627 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEFE5BC158A2B6E00D4D627 /* UIKit.framework */; };
 		4AEFE5BF158A2B6E00D4D627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEFE5BE158A2B6E00D4D627 /* Foundation.framework */; };
 		4AEFE5C1158A2B6E00D4D627 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEFE5C0158A2B6E00D4D627 /* CoreGraphics.framework */; };
@@ -24,6 +25,7 @@
 		4A78D288158ACEDB00410ABE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		4A78D289158ACEDB00410ABE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		4A78D28C158ACEE600410ABE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4A78D28E158B6A8800410ABE /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		4AEFE5B8158A2B6E00D4D627 /* imod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEFE5BC158A2B6E00D4D627 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4AEFE5BE158A2B6E00D4D627 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +97,7 @@
 				4AEFE5D1158A2B6E00D4D627 /* ViewController.h */,
 				4AEFE5D2158A2B6E00D4D627 /* ViewController.mm */,
 				4AEFE5C3158A2B6E00D4D627 /* Supporting Files */,
+				4A78D28E158B6A8800410ABE /* Settings.bundle */,
 			);
 			path = imod;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				4AEFE5C7158A2B6E00D4D627 /* InfoPlist.strings in Resources */,
 				4AEFE5D0158A2B6E00D4D627 /* MainStoryboard.storyboard in Resources */,
 				4AEFE5F5158A683200D4D627 /* Icon.png in Resources */,
+				4A78D28F158B6A8800410ABE /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

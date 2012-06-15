@@ -19,5 +19,16 @@
 - (IBAction)ipt3gpush:(id)sender;
 - (IBAction)otherdevicepush:(id)sender;
 @property (retain, nonatomic) IBOutlet UILabel *devicelabel;
+@property (retain, nonatomic) IBOutlet UIButton *optionsbutton;
+@property (retain, nonatomic) IBOutlet UILabel *optionslabel;
+
+@end
+
+@interface view2 : UIViewController
+- (IBAction)respring:(id)sender;
+- (IBAction)reboot:(id)sender;
+- (IBAction)respringprep:(id)sender;
+- (IBAction)rebootprep:(id)sender;
+@property (retain, nonatomic) IBOutlet UILabel *status2;
 
 @end
