@@ -14,10 +14,6 @@
 - (IBAction)statuschange:(id)sender;
 @property (retain, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 - (IBAction)longpressinstall:(id)sender;
-@property (retain, nonatomic) IBOutlet UIButton *ipt3g511;
-@property (retain, nonatomic) IBOutlet UIButton *otherdevice;
-- (IBAction)ipt3gpush:(id)sender;
-- (IBAction)otherdevicepush:(id)sender;
 @property (retain, nonatomic) IBOutlet UILabel *devicelabel;
 @property (retain, nonatomic) IBOutlet UIButton *optionsbutton;
 @property (retain, nonatomic) IBOutlet UILabel *optionslabel;
