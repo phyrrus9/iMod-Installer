@@ -37,7 +37,7 @@ ofstream logfile;
 {
     NSString *s;
     if (d == IPT3G)
-        s = @"iPod Touch 3G";
+        s = @"Who cares (5.1.1)";
     else 
         s = @"Unknown Device";
     [devicelabel setText:s];
