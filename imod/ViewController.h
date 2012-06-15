@@ -3,8 +3,10 @@
 //this is free software, and can be used however it needs or wants to be 
 //(yes, it has a mind of its own). good luck, dont ask me for help im too lazy.
 #import <UIKit/UIKit.h>
+
 #include <fstream>
 #include <string.h>
+@class Reachability;
 @interface ViewController : UIViewController
 @property (retain, nonatomic) IBOutlet UISwitch *safetyswitch;
 @property (retain, nonatomic) IBOutlet UILabel *status;

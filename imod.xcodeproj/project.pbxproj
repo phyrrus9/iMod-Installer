@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A78D28A158ACEDB00410ABE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A78D289158ACEDB00410ABE /* Reachability.m */; };
+		4A78D28D158ACEE600410ABE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A78D28C158ACEE600410ABE /* SystemConfiguration.framework */; };
 		4AEFE5BD158A2B6E00D4D627 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEFE5BC158A2B6E00D4D627 /* UIKit.framework */; };
 		4AEFE5BF158A2B6E00D4D627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEFE5BE158A2B6E00D4D627 /* Foundation.framework */; };
 		4AEFE5C1158A2B6E00D4D627 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEFE5C0158A2B6E00D4D627 /* CoreGraphics.framework */; };
@@ -19,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A78D288158ACEDB00410ABE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4A78D289158ACEDB00410ABE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		4A78D28C158ACEE600410ABE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4AEFE5B8158A2B6E00D4D627 /* imod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEFE5BC158A2B6E00D4D627 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4AEFE5BE158A2B6E00D4D627 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A78D28D158ACEE600410ABE /* SystemConfiguration.framework in Frameworks */,
 				4AEFE5BD158A2B6E00D4D627 /* UIKit.framework in Frameworks */,
 				4AEFE5BF158A2B6E00D4D627 /* Foundation.framework in Frameworks */,
 				4AEFE5C1158A2B6E00D4D627 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +58,7 @@
 		4AEFE5AD158A2B6E00D4D627 = {
 			isa = PBXGroup;
 			children = (
+				4A78D28C158ACEE600410ABE /* SystemConfiguration.framework */,
 				4AEFE5F4158A683200D4D627 /* Icon.png */,
 				4AEFE5C2158A2B6E00D4D627 /* imod */,
 				4AEFE5BB158A2B6E00D4D627 /* Frameworks */,
@@ -80,6 +87,8 @@
 		4AEFE5C2158A2B6E00D4D627 /* imod */ = {
 			isa = PBXGroup;
 			children = (
+				4A78D288158ACEDB00410ABE /* Reachability.h */,
+				4A78D289158ACEDB00410ABE /* Reachability.m */,
 				4AEFE5CB158A2B6E00D4D627 /* AppDelegate.h */,
 				4AEFE5CC158A2B6E00D4D627 /* AppDelegate.m */,
 				4AEFE5CE158A2B6E00D4D627 /* MainStoryboard.storyboard */,
@@ -184,6 +193,7 @@
 				4AEFE5C9158A2B6E00D4D627 /* main.m in Sources */,
 				4AEFE5CD158A2B6E00D4D627 /* AppDelegate.m in Sources */,
 				4AEFE5D3158A2B6E00D4D627 /* ViewController.mm in Sources */,
+				4A78D28A158ACEDB00410ABE /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

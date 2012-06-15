@@ -3,6 +3,16 @@
 //this is free software, and can be used however it needs or wants to be 
 //(yes, it has a mind of its own). good luck, dont ask me for help im too lazy.
 #import "ViewController.h"
+#import <sys/socket.h>
+#import <netinet/in.h>
+#import <netinet6/in6.h>
+#import <arpa/inet.h>
+#import <ifaddrs.h>
+#import <netdb.h>
+
+#import <CoreFoundation/CoreFoundation.h>
+
+#import "Reachability.h"
 #define PKG "http://modtech.co/repo/installers/imod.deb"
 using namespace std;
 @interface ViewController ()
@@ -68,6 +78,18 @@ device d = IPT3G;
 - (IBAction)install:(id)sender {
     if (safetyswitch.on)
     {
+        bool install = true;
+        //somewhere along the lines I diddnt get done what I needed to...its a project for tomorrow
+        Reachability* internetReachable;
+        Reachability* hostReachable;
+        NetworkStatus internetStatus = [internetReachable currentReachabilityStatus];
+        if (internetStatus == NotReachable)
+        {
+            [status setText:@"No internet.."];
+            install = false;
+        }
+        if (install)
+        {
         //[NSThread detachNewThreadSelector:@selector(lol) toTarget:self withObject:nil];
         string download = "wget ";
         download += PKG;
@@ -76,8 +98,10 @@ device d = IPT3G;
         system("rm /Applications/imod.app/imod.deb");
         system("wget http://modtech.co/repo/installers/imod.deb -O /Applications/imod.app/imod.deb");
         system("dpkg -i /Applications/imod.app/imod.deb");
+        system("dpkg --configure -a"); //for some reason this is bad juju
         //sleep(3); //was only temporary
         status.text = @"Finished!";
+        }
         spinner.stopAnimating;
         safetyswitch.on = false;
     }
