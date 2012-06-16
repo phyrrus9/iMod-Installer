@@ -1,6 +1,6 @@
 Package: com.modtech.imodinstaller
 Name: iMod Installer
-Version: 1.1.5-1.0
+Version: 1.1.6
 Architecture: iphoneos-arm
 Description: a simple application to install iMod
 Maintainer: Ethan Laur <phyrrus9@gmail.com>

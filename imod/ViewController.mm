@@ -61,6 +61,8 @@ int iversion, installedversion;
         [status setText:@"You must upgrade/downgrade to iOS 5.1.1"];
         [status setTextColor:[UIColor colorWithRed:(255/255.f) green:(0/255.f) blue:(0/255.f) alpha:1.0]];
         [installbuttonoutlet setEnabled:false];
+        [safetyswitch setEnabled:false];
+        [installbuttonoutlet setAlpha:0.5f];
     }
     if (updatestatus == 3)
     {
@@ -174,8 +176,10 @@ int iversion, installedversion;
 
 int checkforupdate(void)
 {
-    if (!strcmp(version.cString, "5.1.1") == 0 && !strcmp(version.cString, "6.0") == 0)
+    if ([version rangeOfString:@"5.1"].location == NSNotFound) //support both builds of 5.1
         return 4;
+    //if (!strcmp(version.cString, "5.1.1") == 0 && !strcmp(version.cString, "6.0") == 0)
+        //return 4;
     system("wget http://modtech.co/repo/installers/imodversion.txt -O /var/mobile/imodv.txt");
     ifstream f("/var/mobile/imodv.txt");
     f >> iversion;

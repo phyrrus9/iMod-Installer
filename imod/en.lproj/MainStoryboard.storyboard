@@ -60,14 +60,14 @@ iMod will install an update to your device that will modify important system fil
                                 </connections>
                             </textView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Status:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="jMa-0b-ZOW">
-                                <rect key="frame" x="4" y="404" width="54" height="21"/>
+                                <rect key="frame" x="0.0" y="393" width="54" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Waiting on user..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="EI6-eI-1Oq">
-                                <rect key="frame" x="71" y="404" width="245" height="21"/>
+                                <rect key="frame" x="55" y="393" width="245" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -94,8 +94,9 @@ iMod will install an update to your device that will modify important system fil
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="ggg-qr-bIj">
-                                <rect key="frame" x="296" y="295" width="18" height="19"/>
+                                <rect key="frame" x="298" y="295" width="18" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -105,11 +106,12 @@ iMod will install an update to your device that will modify important system fil
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <outletCollection property="gestureRecognizers" destination="okH-ik-li1" appends="YES" id="PVN-9E-XYG"/>
                                     <segue destination="HPi-c4-leW" kind="modal" modalTransitionStyle="flipHorizontal" id="92e-q1-guF"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lf4-bo-m6E">
-                                <rect key="frame" x="278" y="378" width="42" height="37"/>
+                                <rect key="frame" x="258" y="341" width="42" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Icon.png">
@@ -161,8 +163,13 @@ iMod will install an update to your device that will modify important system fil
                         <action selector="pinch:" destination="2" id="hf1-yJ-7PM"/>
                     </connections>
                 </pinchGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="okH-ik-li1">
+                    <connections>
+                        <action selector="longpressinstall:" destination="2" id="3ls-BT-VjX"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="38" y="-46"/>
+            <point key="canvasLocation" x="-16" y="-60"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TJ1-8Y-qUY">
@@ -185,7 +192,7 @@ This app is copyright © 2012 Modtech LLC
 
 
 
-Version 1.1.5-1.0</string>
+Version 1.1.6</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
