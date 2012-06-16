@@ -21,6 +21,7 @@ using namespace std;
 
 @implementation ViewController
 @synthesize devicelabel;
+@synthesize modlabel;
 @synthesize optionsbutton;
 @synthesize optionslabel;
 @synthesize installbuttonoutlet;
@@ -35,7 +36,7 @@ ofstream logfile;
 NSString *version = [[UIDevice currentDevice] systemVersion];
 NSString *downloadcmd = @"wget http://modtech.co/repo/installers/imod.deb -O /Applications/imod.app/imod.deb";
 bool install, pass = true;
-    int iversion;
+int iversion, installedversion;
 
 - (void)displayDevice
 {
@@ -73,6 +74,10 @@ bool install, pass = true;
         [installbuttonoutlet setTitle:@"Up to date" forState:UIControlStateNormal];
         [installbuttonoutlet setEnabled:false];
     }
+    if (updatestatus == 1)
+        [modlabel setText:@"None"];
+    else
+        [modlabel setText:[NSString stringWithFormat:@"%i", installedversion]];
 }
 
 - (void)viewDidUnload
@@ -84,6 +89,7 @@ bool install, pass = true;
     [self setOptionsbutton:nil];
     [self setOptionslabel:nil];
     [self setInstallbuttonoutlet:nil];
+    [self setModlabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -101,6 +107,7 @@ bool install, pass = true;
     [optionsbutton release];
     [optionslabel release];
     [installbuttonoutlet release];
+    [modlabel release];
     [super dealloc];
 }
 - (IBAction)install:(id)sender {
@@ -171,14 +178,13 @@ int checkforupdate(void)
         return 4;
     system("wget http://modtech.co/repo/installers/imodversion.txt -O /var/mobile/imodv.txt");
     ifstream f("/var/mobile/imodv.txt");
-    int version;
     f >> iversion;
     f.close();
     f.open("/var/mobile/.imodv");
     if (!f) //if the file isnt there
         return 1;
-    f >> version;
-    if (iversion > version)
+    f >> installedversion;
+    if (iversion > installedversion)
         return 3;
     else
         return 2;

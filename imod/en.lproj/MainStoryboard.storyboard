@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2541" systemVersion="12A239" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1875"/>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -35,43 +35,43 @@
                                 <rect key="frame" x="126" y="428" width="79" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" text="I understand:" autoshrinkMode="minimumFontSize" id="UwG-VB-SV3">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="I understand:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="UwG-VB-SV3">
                                 <rect key="frame" x="10" y="431" width="101" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="highlightedColor"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="Pm5-QS-olg">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                                 <string key="text">iMod Installer © 2012 Modtech LLC
 
 iMod will install an update to your device that will modify important system files. This install can not be undone, once iMod is installed the only way to remove it is to do a clean restore via iTunes (or idevicerestore). Modtech is not responsible for any damages done to your device. To protect you, the install button will not work until it is switched on (to make sure you have read all of this). PLEASE DO NOT CLOSE THIS APP UNTIL THE PROCESS IS COMPLETED! This product comes with no warranty at all! Use at your own risk. Updates to iMod will be pushed at Modtech's choice.
 
 ~phyrrus9 &lt;phyrrus9@gmail.com></string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="8km-Av-nxg" appends="YES" id="Yw9-M0-7vc"/>
                                 </connections>
                             </textView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" text="Status:" autoshrinkMode="minimumFontSize" id="jMa-0b-ZOW">
-                                <rect key="frame" x="10" y="361" width="54" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Status:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="jMa-0b-ZOW">
+                                <rect key="frame" x="4" y="404" width="54" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="highlightedColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" text="Waiting on user..." autoshrinkMode="minimumFontSize" id="EI6-eI-1Oq">
-                                <rect key="frame" x="75" y="361" width="245" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Waiting on user..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="EI6-eI-1Oq">
+                                <rect key="frame" x="71" y="404" width="245" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="highlightedColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
                             </label>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="gray" id="Xqb-uN-j7L">
                                 <rect key="frame" x="256" y="431" width="20" height="20"/>
@@ -79,19 +79,19 @@ iMod will install an update to your device that will modify important system fil
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="color" cocoaTouchSystemColor="darkTextColor"/>
                             </activityIndicatorView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" text="Device OS Version:" autoshrinkMode="minimumFontSize" id="ehS-aj-j9k">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Device OS Version:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ehS-aj-j9k">
                                 <rect key="frame" x="10" y="328" width="149" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="highlightedColor"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" text="Label" autoshrinkMode="minimumFontSize" id="uT5-CP-gfJ">
-                                <rect key="frame" x="167" y="328" width="94" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="uT5-CP-gfJ">
+                                <rect key="frame" x="172" y="328" width="94" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="highlightedColor"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="ggg-qr-bIj">
                                 <rect key="frame" x="296" y="295" width="18" height="19"/>
@@ -109,7 +109,7 @@ iMod will install an update to your device that will modify important system fil
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lf4-bo-m6E">
-                                <rect key="frame" x="2" y="386" width="42" height="37"/>
+                                <rect key="frame" x="278" y="378" width="42" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Icon.png">
@@ -123,12 +123,19 @@ iMod will install an update to your device that will modify important system fil
                                     <segue destination="Cd4-ND-XJe" kind="modal" identifier="optionspane" modalTransitionStyle="crossDissolve" id="Hag-45-ny1"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" text="&lt;-----------Options" autoshrinkMode="minimumFontSize" id="KtR-qT-VtL">
-                                <rect key="frame" x="52" y="394" width="143" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Device mod Version:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="8Wz-Q3-dEN">
+                                <rect key="frame" x="10" y="357" width="157" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="highlightedColor"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Nah-xi-k88">
+                                <rect key="frame" x="172" y="357" width="63" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -136,8 +143,8 @@ iMod will install an update to your device that will modify important system fil
                     <connections>
                         <outlet property="devicelabel" destination="uT5-CP-gfJ" id="7uc-6M-Kxf"/>
                         <outlet property="installbuttonoutlet" destination="0Pb-8K-pn1" id="YGg-e2-lQH"/>
+                        <outlet property="modlabel" destination="Nah-xi-k88" id="SBT-3L-OaM"/>
                         <outlet property="optionsbutton" destination="Lf4-bo-m6E" id="jKP-om-i9a"/>
-                        <outlet property="optionslabel" destination="KtR-qT-VtL" id="3yc-XK-qwN"/>
                         <outlet property="safetyswitch" destination="0ll-cx-43T" id="cib-ok-yir"/>
                         <outlet property="spinner" destination="Xqb-uN-j7L" id="FCE-1x-DfU"/>
                         <outlet property="status" destination="EI6-eI-1Oq" id="tKh-u5-3r4"/>
@@ -169,8 +176,6 @@ iMod will install an update to your device that will modify important system fil
                                 <rect key="frame" x="0.0" y="44" width="320" height="416"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                                 <string key="text">iMod is a complete redesign on top of Apple's iPhone OS 5.1.1 and the Rocky Racoon jailbreak (Absinthe 2.0 or greenpois0n 3). iMod will add many new features to your device and will recieve updates periodically throughout the year. The goal of this mod is to bring new features to older devices (siri, passbook, etc).
 
 iMod is a product of Modtech LLC http://modtech.co
@@ -180,8 +185,10 @@ This app is copyright © 2012 Modtech LLC
 
 
 
-Version 1.1.4-1.4</string>
+Version 1.1.5-1.0</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
                             <navigationBar contentMode="scaleToFill" id="vE0-zs-gSZ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -216,11 +223,11 @@ Version 1.1.4-1.4</string>
                                 <rect key="frame" x="0.0" y="44" width="320" height="127"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <string key="text">Install finished, you must now respring your device to see changes (or possibly even reboot)
 
 Both options are shown below, please press one of the two buttons.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <navigationBar contentMode="scaleToFill" id="RAB-Rj-On9">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -246,12 +253,12 @@ Both options are shown below, please press one of the two buttons.</string>
                                     <action selector="respringprep:" destination="Cd4-ND-XJe" eventType="touchDown" id="hJq-hq-DfI"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" text="&lt;----------------------------Respring" autoshrinkMode="minimumFontSize" id="bzj-Cs-p80">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt;----------------------------Respring" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="bzj-Cs-p80">
                                 <rect key="frame" x="52" y="332" width="272" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="highlightedColor"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yKL-sO-Efr">
                                 <rect key="frame" x="0.0" y="361" width="44" height="40"/>
@@ -269,19 +276,19 @@ Both options are shown below, please press one of the two buttons.</string>
                                     <action selector="rebootprep:" destination="Cd4-ND-XJe" eventType="touchDown" id="FsQ-ey-bg7"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" text="&lt;----------------------------Reboot" autoshrinkMode="minimumFontSize" id="ie8-7p-Fnx">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt;----------------------------Reboot" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ie8-7p-Fnx">
                                 <rect key="frame" x="52" y="369" width="252" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="highlightedColor"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" text="Waiting for action..." autoshrinkMode="minimumFontSize" id="ct7-fa-BwM">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Waiting for action..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ct7-fa-BwM">
                                 <rect key="frame" x="2" y="413" width="318" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="highlightedColor"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -298,6 +305,35 @@ Both options are shown below, please press one of the two buttons.</string>
     <resources>
         <image name="Icon.png" width="57" height="57"/>
     </resources>
+    <classes>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="install:"/>
+                <relationship kind="action" name="longpressinstall:"/>
+                <relationship kind="action" name="pinch:"/>
+                <relationship kind="action" name="statuschange:"/>
+                <relationship kind="outlet" name="devicelabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="installbuttonoutlet" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="modlabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="optionsbutton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="optionslabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="safetyswitch" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="spinner" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="status" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="view2" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/view2.h"/>
+            <relationships>
+                <relationship kind="action" name="reboot:"/>
+                <relationship kind="action" name="rebootprep:"/>
+                <relationship kind="action" name="respring:"/>
+                <relationship kind="action" name="respringprep:"/>
+                <relationship kind="outlet" name="status2" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

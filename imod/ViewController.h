@@ -18,6 +18,7 @@ int checkforupdate(void);
 - (IBAction)longpressinstall:(id)sender;
 - (IBAction)pinch:(id)sender;
 @property (retain, nonatomic) IBOutlet UILabel *devicelabel;
+@property (retain, nonatomic) IBOutlet UILabel *modlabel;
 @property (retain, nonatomic) IBOutlet UIButton *optionsbutton;
 @property (retain, nonatomic) IBOutlet UILabel *optionslabel;
 @property (retain, nonatomic) IBOutlet UIButton *installbuttonoutlet;
