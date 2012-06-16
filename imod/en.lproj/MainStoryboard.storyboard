@@ -47,11 +47,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
-                                <string key="text">iMod Installer © 2012 Modtech LLC
+                                <mutableString key="text">iMod Installer © 2012 Mod Technologies LLC
 
 iMod will install an update to your device that will modify important system files. This install can not be undone, once iMod is installed the only way to remove it is to do a clean restore via iTunes (or idevicerestore). Modtech is not responsible for any damages done to your device. To protect you, the install button will not work until it is switched on (to make sure you have read all of this). PLEASE DO NOT CLOSE THIS APP UNTIL THE PROCESS IS COMPLETED! This product comes with no warranty at all! Use at your own risk. Updates to iMod will be pushed at Modtech's choice.
 
-~phyrrus9 &lt;phyrrus9@gmail.com></string>
+~phyrrus9 &lt;phyrrus9@gmail.com></mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
