@@ -30,6 +30,10 @@ int checkforupdate(void);
 - (IBAction)reboot:(id)sender;
 - (IBAction)respringprep:(id)sender;
 - (IBAction)rebootprep:(id)sender;
+- (IBAction)launchdkill:(id)sender;
+- (IBAction)switchchange:(id)sender;
 @property (retain, nonatomic) IBOutlet UILabel *status2;
+@property (retain, nonatomic) IBOutlet UISwitch *safetyswitch;
+@property (retain, nonatomic) IBOutlet UIButton *launchd;
 
 @end
