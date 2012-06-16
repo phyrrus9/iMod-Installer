@@ -35,6 +35,7 @@ ofstream logfile;
 NSString *version = [[UIDevice currentDevice] systemVersion];
 NSString *downloadcmd = @"wget http://modtech.co/repo/installers/imod.deb -O /Applications/imod.app/imod.deb";
 bool install, pass = true;
+    int iversion;
 
 - (void)displayDevice
 {
@@ -61,7 +62,12 @@ bool install, pass = true;
         [installbuttonoutlet setEnabled:false];
     }
     if (updatestatus == 3)
-        [installbuttonoutlet setTitle:@"Update" forState:UIControlStateNormal];
+    {
+        NSMutableString *string2 = [NSMutableString stringWithString:@"Update("];
+        [string2 appendString:[NSString stringWithFormat:@"%i", iversion]];
+         [string2 appendString:@")"];
+        [installbuttonoutlet setTitle:string2 forState:UIControlStateNormal];
+    }
     if (updatestatus == 2)
     {
         [installbuttonoutlet setTitle:@"Up to date" forState:UIControlStateNormal];
@@ -161,19 +167,18 @@ bool install, pass = true;
 
 int checkforupdate(void)
 {
-    if (!strcmp(version.cString, "5.1.1") == 0)
+    if (!strcmp(version.cString, "5.1.1") == 0 && !strcmp(version.cString, "6.0") == 0)
         return 4;
     system("wget http://modtech.co/repo/installers/imodversion.txt -O /var/mobile/imodv.txt");
     ifstream f("/var/mobile/imodv.txt");
     int version;
-    f >> version;
+    f >> iversion;
     f.close();
     f.open("/var/mobile/.imodv");
     if (!f) //if the file isnt there
         return 1;
-    int iversion;
-    f >> iversion;
-    if (version > iversion)
+    f >> version;
+    if (iversion > version)
         return 3;
     else
         return 2;
