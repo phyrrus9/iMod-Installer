@@ -1,0 +1,14 @@
+iMod is Copyright © 2012 MOD Technologies LLC <modtechnologiesllc@gmail.com> (http://modtech.co)
+This project is open source, it may be used in whatever way you want it to, though it really only has one purpose: to install and update iMod. iMod is a theme + software package for iPhone OS 5.1.1 (and iOS 6 eventually). You will notice many changes to the operating system once installed (like a status bar tweak and some new apps). To build:
+
+run "git clone http://github.com/phyrrus9/iMod-Installer"
+this will clone the latest branch to your computer. next, enter its directory
+run "cd ./iMod-Installer"
+now, to build correctly you need to be using a mac with OS X 10.7.4 or OSX 10.8 DP 4, just
+run "sudo make"
+this will leave the imodinstaller.deb in the directory. I then proceed to upload it to the source.
+
+To change version numbers on the package,
+run "nano ./imodinstaller/DEBIAN/control"
+
+~phyrrus9 <phyrrus9@gmail.com>
