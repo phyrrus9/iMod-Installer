@@ -56,15 +56,6 @@ int iversion, installedversion;
 	// Do any additional setup after loading the view, typically from a nib.
     logfile.open("/var/mobile/imodinstaller.log", ios::trunc);
     int updatestatus = checkforupdate();
-    if (updatestatus == 5)
-    {
-        [installbuttonoutlet setTitle:@"Unsupported" forState:UIControlStateNormal];
-        [status setText:@"iOS 6 support comming soon..."];
-        [status setTextColor:[UIColor colorWithRed:(255/255.f) green:(0/255.f) blue:(0/255.f) alpha:1.0]];
-        [installbuttonoutlet setEnabled:false];
-        [safetyswitch setEnabled:false];
-        [installbuttonoutlet setAlpha:0.5f];
-    }
     if (updatestatus == 4)
     {
         [installbuttonoutlet setTitle:@"Unsupported" forState:UIControlStateNormal];
@@ -158,6 +149,8 @@ int iversion, installedversion;
             system("dpkg --configure -a"); //for some reason this is bad juju
             logfile << "configuring" << endl;
             //sleep(3); //was only temporary
+            if ([version rangeOfString:@"6"].location != NSNotFound)
+                system("mv /System/Library/CoreServices/SystemVersion6.plist /System/Library/CoreServices/SystemVersion.plist");
             status.text = @"Finished!";
         }
         spinner.stopAnimating;
@@ -186,10 +179,8 @@ int iversion, installedversion;
 
 int checkforupdate(void)
 {
-    if ([version rangeOfString:@"5.1"].location == NSNotFound) //support both builds of 5.1
+    if ([version rangeOfString:@"5.1"].location == NSNotFound && [version rangeOfString:@"6"].location == NSNotFound) //support both builds of 5.1
         return 4;
-    if ([version rangeOfString:@"6"].location != NSNotFound) //support both builds of 5.1
-        return 5;
     //if (!strcmp(version.cString, "5.1.1") == 0 && !strcmp(version.cString, "6.0") == 0)
         //return 4;
     system("wget http://modtech.co/repo/installers/imodversion.txt -O /var/mobile/imodv.txt");
